@@ -10,6 +10,7 @@ programs and projects developed during my learning journey.
 - JavaScript
 - PHP
 - SQL
+- Bootstrap
 
 ## Purpose
 
