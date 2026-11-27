@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Elements</title>
+  </head>
+  <body>
+    <h1>Campus Media Page</h1>
+    <h2>Audio announcement</h2>
+    <audio controls>
+      <source src="media/announcement.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <h2>Campus video</h2>
+    <video controls width="640" poster="images/video-poster.jpg">
+      <source src="media/campus-tour.mp4" type="video/mp4" />
+      Your browser does not support the video element.
+    </video>
+    <h2>Embedded information page</h2>
+    <iframe
+      src="about.html"
+      title="Campus information"
+      width="640"
+      height="320"
+    ></iframe>
+  </body>
+</html>
