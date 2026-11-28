@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Sections</title>
+    <style>
+        table {
+            width:100%;
+            border-collapse:collapse;
+        }
+        th, td {
+            border:1px solid #999;
+            padding:8px;
+            text-align:left;
+        }
+        tfoot {
+            font-weight:bold;
+            background:#f4f6f8;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Weekly practice record</caption>
+        <thead>
+            <tr>
+                <th scope="col">Day</th>
+                <th scope="col">Minutes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>60</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>105</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
